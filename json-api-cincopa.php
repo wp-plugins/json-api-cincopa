@@ -8,7 +8,7 @@
 
   Description: Extends the JSON API for RESTful BuddyPress Cincopa galleries listing for any user
 
-  Version: 1.0
+  Version: 1.1
   
   Author: Ali Qureshi
 

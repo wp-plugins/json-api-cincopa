@@ -59,6 +59,11 @@ To install JSON API Cincopa just follow these steps:
 ==Changelog==
 
 
+= 1.1 =
+
+* Updated `album_items` making `original` uploaded format as default, `flv` and `mp4` are the possible values for format var.
+
+
 = 1.0 =
 
 * Updated `album_items` for original, flv and mp4 video formats availability
@@ -88,7 +93,7 @@ http://localhost/api/cincopa/album_items/?fid=AgCAn_Zvs6Zl
 
 To get video in flv format, http://localhost/api/cincopa/album_items/?fid=AgCAn_Zvs6Zl&format=flv
 
-To get video in original uploaded format, http://localhost/api/cincopa/album_items/?fid=AgCAn_Zvs6Zl&format=original
+To get video in transcoded mp4 720p version uploaded format, http://localhost/api/cincopa/album_items/?fid=AgCAn_Zvs6Zl&format=mp4
 
 
 For details, please check here: http://www.parorrey.com/solutions/json-api-cincopa/

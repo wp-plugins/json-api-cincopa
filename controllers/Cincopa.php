@@ -54,8 +54,8 @@ public function album_items() {
 	$oReturn = new stdClass();
 	
  	if($json_api->query->format=='flv') $format = '';
-	elseif($json_api->query->format=='original') $format = '&content=d:original';
-	else $format = '&content=d:mp4_hd';
+	elseif($json_api->query->format=='mp4') $format = '&content=d:mp4_hd';
+	else $format = '&content=d:original';
 	 
  $url = 'http://www.cincopa.com/media-platform/runtime/xspf.aspx?fid='.$fid.$format; 
 
